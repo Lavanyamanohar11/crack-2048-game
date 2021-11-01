@@ -68,6 +68,7 @@ const BoardView = () => {
         {tiles}
         <GameOverlay onRestart={resetGame} board={board} />
       </div>
+      <p className="footer-para">Made with 💜 by <a href="https://github.com/Lavanyamanohar11" target="_blank">Lavanya</a> | Motion Graphics by <a href="https://www.behance.net/romaincousin" target="_blank">Romain Cousin</a></p>
     </div>
   );
 };
